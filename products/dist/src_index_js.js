@@ -18,7 +18,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var faker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! faker */ \"./node_modules/faker/index.js\");\n/* harmony import */ var faker__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(faker__WEBPACK_IMPORTED_MODULE_0__);\n;\n\nlet products = ''\n\nfor (let i=0; i <3; i++){\n    const name = faker__WEBPACK_IMPORTED_MODULE_0___default().commerce.productName()\n    products += `<div>${name}</div>`\n}\n\nconsole.log(products)\n\ndocument.querySelector(\"#dev-products\").innerHTML = products;\n\n//# sourceURL=webpack://products/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var faker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! faker */ \"webpack/sharing/consume/default/faker/faker\");\n/* harmony import */ var faker__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(faker__WEBPACK_IMPORTED_MODULE_0__);\n;\n\nlet products = ''\n\nfor (let i=0; i <3; i++){\n    const name = faker__WEBPACK_IMPORTED_MODULE_0___default().commerce.productName()\n    products += `<div>${name}</div>`\n}\n\nconsole.log(products)\n\ndocument.querySelector(\"#dev-products\").innerHTML = products;\n\n//# sourceURL=webpack://products/./src/index.js?");
 
 /***/ })
 
